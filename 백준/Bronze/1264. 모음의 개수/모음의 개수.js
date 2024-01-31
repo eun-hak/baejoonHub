@@ -1,5 +1,4 @@
-let fs = require('fs');
-let input = fs.readFileSync('/dev/stdin').toString().split('\n');
+let input = require("fs").readFileSync("/dev/stdin").toString().split("\n");
 
 for (let ans of input) {
   const Vowel = ["a", "e", "i", "o", "u"];
